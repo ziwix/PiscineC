@@ -6,7 +6,7 @@
 /*   By: megadiou <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 13:33:40 by megadiou          #+#    #+#             */
-/*   Updated: 2023/09/04 18:27:44 by megadiou         ###   ########.fr       */
+/*   Updated: 2023/09/04 19:52:06 by megadiou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ char	**ft_split(char *str, char *charset)
 	strs = (char **) malloc(sizeof(char) * count);
 	while (i < count)
 	{
-		strs[i] = (char *) malloc(sizeof(char) * /* LENGTH OF MY WORDS */);
+		strs[i] = (char *) malloc(sizeof(char) * /* LENGTH OF MY WORDS STOCK IN TAB OF INTS */);
 		i++;
 	}
 }
