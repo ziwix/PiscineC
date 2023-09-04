@@ -1,2 +1,3 @@
-*/.git/
+.git/
+C0*/.git/
 *.swp
